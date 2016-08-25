@@ -26,11 +26,20 @@ ul {
     text-align: center;
 }
 
+.header:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .menu .menu-list{
     width: auto;
     list-style: none;
-    vertical-align: middle;
-    padding: 9px 0;
 }
 
 .menu .menu-item{
@@ -44,7 +53,6 @@ ul {
     height: 100%;
     padding: 0 17px;
     text-decoration: none;
-    vertical-align: middle;
 }
 
 .menu a:active{
